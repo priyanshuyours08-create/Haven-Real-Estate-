@@ -1,0 +1,1488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HAVEN | Modern Architectural Residences</title>
+  <meta name="description" content="We bring style, serenity and luxury through intelligent architecture. Discover signature homes that move you.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Main Hero Section -->
+  <section class="hero-section" id="hero">
+    <!-- Background Image Layer with Artful Framing -->
+    <div class="hero-bg-container">
+      <img src="assets/hero-villa.jpg" alt="HAVEN Modern Villa Architecture" class="hero-bg-image" id="heroBgImage">
+    </div>
+
+    <!-- Navigation Bar -->
+    <header class="navbar" id="navbar">
+      <div class="nav-brand">
+        <a href="#hero" class="brand-logo" id="brandLogo">HAVEN</a>
+      </div>
+
+      <nav class="nav-pill-container" id="navMenu">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#residences" class="nav-link">Residences</a>
+        <a href="#journey" class="nav-link">Journey</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#book" class="book-link" id="bookViewingBtn">
+          <span>Book a viewing</span>
+          <svg class="arrow-icon" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.5 9.5L9.5 2.5M9.5 2.5H3.5M9.5 2.5V8.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="hero-content">
+      <div class="hero-typography-block">
+        <h1 class="hero-title">
+          <span class="line-1">HOMES THAT</span>
+          <span class="line-2">MOVE YOU</span>
+        </h1>
+        <p class="hero-subtitle">
+          We bring style, serenity and luxury<br>
+          through intelligent architecture.
+        </p>
+        <div class="hero-cta-wrapper">
+          <a href="#explore" class="explore-btn" id="exploreHomesBtn">
+            <span>EXPLORE HOMES</span>
+            <svg class="arrow-cta" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.5 10.5L10.5 2.5M10.5 2.5H4.5M10.5 2.5V8.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Bottom Left Widget: Specialists & Social Proof -->
+    <div class="bottom-left-widget" id="specialistsWidget">
+      <div class="avatar-stack">
+        <div class="avatar-item" style="z-index: 3;">
+          <img src="assets/avatar-1.jpg" alt="Architect Specialist 1">
+        </div>
+        <div class="avatar-item" style="z-index: 2;">
+          <img src="assets/avatar-2.jpg" alt="Architect Specialist 2">
+        </div>
+        <div class="avatar-item" style="z-index: 1;">
+          <img src="assets/avatar-3.jpg" alt="Architect Specialist 3">
+        </div>
+      </div>
+      <div class="specialist-info">
+        <div class="specialist-count">50+</div>
+        <div class="specialist-desc">Specialists dedicated<br>to sustainable living</div>
+      </div>
+    </div>
+
+    <!-- Bottom Right Widget: Architectural Preview Card -->
+    <div class="bottom-right-card" id="previewCard">
+      <div class="preview-media-box">
+        <img src="assets/preview-villa.jpg" alt="Signature Coastal Residence Preview" class="preview-img" id="previewImage">
+      </div>
+      <div class="preview-details">
+        <p class="preview-title" id="previewCaption">Find a home that fits your lifestyle</p>
+        <div class="carousel-indicators" id="carouselIndicators">
+          <button class="indicator-bar active" data-index="0" aria-label="Slide 1"></button>
+          <button class="indicator-bar" data-index="1" aria-label="Slide 2"></button>
+          <button class="indicator-bar" data-index="2" aria-label="Slide 3"></button>
+          <button class="indicator-bar" data-index="3" aria-label="Slide 4"></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Center Notification Toast / Pill -->
+    <div class="floating-hire-badge" id="hireNotification">
+      <div class="badge-avatar">
+        <img src="assets/avatar-1.jpg" alt="Anastasiia Avatar">
+      </div>
+      <div class="badge-content">
+        <span class="badge-text"><strong>Anastasiia</strong> is available for hire</span>
+      </div>
+      <a href="#hire" class="badge-btn" id="hireBtn">Hire Anastasiia</a>
+      <button class="badge-close-btn" id="closeNotificationBtn" aria-label="Dismiss banner">
+        <svg width="11" height="11" viewBox="0 0 10 10" fill="none">
+          <path d="M1.5 1.5L8.5 8.5M8.5 1.5L1.5 8.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- Curated Residences & Properties Section -->
+  <section class="residences-section" id="residences">
+    <div class="residences-container">
+      <!-- Section Header -->
+      <div class="residences-header">
+        <div class="residences-header-top">
+          <div class="residences-tag-group">
+            <span class="section-tag">CURATED PORTFOLIO</span>
+            <span class="residences-count-badge">3 Featured</span>
+          </div>
+          <div class="residences-filter-pills" id="residenceFilters">
+            <button class="filter-pill active" data-filter="all">All Residences</button>
+            <button class="filter-pill" data-filter="coastal">Coastal Villas</button>
+            <button class="filter-pill" data-filter="cliffside">Cliffside Estates</button>
+            <button class="filter-pill" data-filter="pavilion">Glass Pavilions</button>
+          </div>
+        </div>
+
+        <div class="residences-header-main">
+          <div class="residences-title-block">
+            <h2 class="residences-title">SIGNATURE RESIDENCES</h2>
+            <p class="residences-subtitle">
+              Meticulously crafted sanctuaries merging brutalist board-formed concrete, floor-to-ceiling glass, and untouched natural terrain.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Residences Grid -->
+      <div class="residences-grid" id="residencesGrid">
+        <!-- Residence Card 1 -->
+        <article class="residence-card" data-category="coastal">
+          <div class="card-media">
+            <img src="assets/hero-villa.jpg" alt="The Monolith Coastal Sanctuary" class="card-img" loading="lazy">
+            <div class="card-badges">
+              <span class="badge-status">Available Now</span>
+              <span class="badge-category">Coastal Villa</span>
+            </div>
+            <div class="card-actions-bar">
+              <button class="card-virtual-tour-btn" data-residence="haven-monolith" aria-label="Explore Virtual Tour & Floorplans">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                  <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                  <line x1="12" y1="22.08" x2="12" y2="12"/>
+                </svg>
+                <span>Tour & Plans</span>
+              </button>
+              <button class="card-quick-tour-btn" data-residence="haven-monolith" aria-label="Book private tour">
+                <span>Book Viewing</span>
+                <svg width="11" height="11" viewBox="0 0 12 12" fill="none">
+                  <path d="M2.5 9.5L9.5 2.5M9.5 2.5H3.5M9.5 2.5V8.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta-row">
+              <span class="card-location">Pacific Palisades, California</span>
+              <span class="card-price">$18,500,000</span>
+            </div>
+            <h3 class="card-title">The Monolith Coastal Sanctuary</h3>
+            <p class="card-desc">Cascading cantilevered concrete terraces with an infinity reflection pool and panoramic Pacific horizon views.</p>
+            <div class="card-specs">
+              <span class="spec-item"><strong>5</strong> Beds</span>
+              <span class="spec-dot">•</span>
+              <span class="spec-item"><strong>6</strong> Baths</span>
+              <span class="spec-dot">•</span>
+              <span class="spec-item"><strong>8,400</strong> sq.ft</span>
+              <span class="spec-dot">•</span>
+              <span class="spec-item">Infinity Pool</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Residence Card 2 -->
+        <article class="residence-card" data-category="cliffside">
+          <div class="card-media">
+            <img src="assets/preview-villa.jpg" alt="Horizon Cliffside Estate" class="card-img" loading="lazy">
+            <div class="card-badges">
+              <span class="badge-status private">Private Viewing</span>
+              <span class="badge-category">Cliffside Estate</span>
+            </div>
+            <div class="card-actions-bar">
+              <button class="card-virtual-tour-btn" data-residence="haven-cliff" aria-label="Explore Virtual Tour & Floorplans">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                  <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                  <line x1="12" y1="22.08" x2="12" y2="12"/>
+                </svg>
+                <span>Tour & Plans</span>
+              </button>
+              <button class="card-quick-tour-btn" data-residence="haven-cliff" aria-label="Book private tour">
+                <span>Book Viewing</span>
+                <svg width="11" height="11" viewBox="0 0 12 12" fill="none">
+                  <path d="M2.5 9.5L9.5 2.5M9.5 2.5H3.5M9.5 2.5V8.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta-row">
+              <span class="card-location">Big Sur Coast, California</span>
+              <span class="card-price">$24,200,000</span>
+            </div>
+            <h3 class="card-title">Horizon Cliffside Estate</h3>
+            <p class="card-desc">Dramatic glass architecture suspended high over rugged coastline crags with seamless outdoor stone pathways.</p>
+            <div class="card-specs">
+              <span class="spec-item"><strong>4</strong> Beds</span>
+              <span class="spec-dot">•</span>
+              <span class="spec-item"><strong>5.5</strong> Baths</span>
+              <span class="spec-dot">•</span>
+              <span class="spec-item"><strong>7,250</strong> sq.ft</span>
+              <span class="spec-dot">•</span>
+              <span class="spec-item">Ocean Bluff Deck</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Residence Card 3 -->
+        <article class="residence-card" data-category="pavilion">
+          <div class="card-media">
+            <img src="assets/residence-3.jpg" alt="The Obsidian Glass Pavilion" class="card-img" loading="lazy">
+            <div class="card-badges">
+              <span class="badge-status">New Release</span>
+              <span class="badge-category">Glass Pavilion</span>
+            </div>
+            <div class="card-actions-bar">
+              <button class="card-virtual-tour-btn" data-residence="haven-sanctuary" aria-label="Explore Virtual Tour & Floorplans">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                  <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                  <line x1="12" y1="22.08" x2="12" y2="12"/>
+                </svg>
+                <span>Tour & Plans</span>
+              </button>
+              <button class="card-quick-tour-btn" data-residence="haven-sanctuary" aria-label="Book private tour">
+                <span>Book Viewing</span>
+                <svg width="11" height="11" viewBox="0 0 12 12" fill="none">
+                  <path d="M2.5 9.5L9.5 2.5M9.5 2.5H3.5M9.5 2.5V8.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta-row">
+              <span class="card-location">Sedona Canyon, Arizona</span>
+              <span class="card-price">$14,800,000</span>
+            </div>
+            <h3 class="card-title">The Obsidian Glass Pavilion</h3>
+            <p class="card-desc">Sculpted brutalist sanctuary nestled between ancient canyon rocks, framed by quiet reflection pools and private courtyards.</p>
+            <div class="card-specs">
+              <span class="spec-item"><strong>4</strong> Beds</span>
+              <span class="spec-dot">•</span>
+              <span class="spec-item"><strong>4</strong> Baths</span>
+              <span class="spec-dot">•</span>
+              <span class="spec-item"><strong>6,100</strong> sq.ft</span>
+              <span class="spec-dot">•</span>
+              <span class="spec-item">Desert Courtyard</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Spatial Craft & Materiality Section -->
+  <section class="spatial-section" id="craft">
+    <div class="spatial-container">
+      <!-- Section Header -->
+      <div class="spatial-header">
+        <div class="spatial-header-top">
+          <div class="spatial-tag-group">
+            <span class="section-tag">SPATIAL CRAFT & MATERIALITY</span>
+            <span class="spatial-live-badge">Interactive Blueprint</span>
+          </div>
+          <div class="ambiance-switcher" id="ambianceSwitcher">
+            <button class="ambiance-btn active" data-mode="day" id="btnDayMode">
+              <span class="mode-icon">☀️</span>
+              <span>Daylight Serenity</span>
+            </button>
+            <button class="ambiance-btn" data-mode="twilight" id="btnTwilightMode">
+              <span class="mode-icon">🌙</span>
+              <span>Twilight Glow</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="spatial-title-block">
+          <h2 class="spatial-title">THE ANATOMY OF SERENITY</h2>
+          <p class="spatial-subtitle">
+            Hover and click interactive architectural hotspots to explore how board-formed concrete, flush honed travertine, and vanishing pocket glass dissolve the boundary between shelter and horizon.
+          </p>
+        </div>
+      </div>
+
+      <!-- Interactive Canvas with Hotspots -->
+      <div class="spatial-canvas-wrapper" id="spatialCanvasWrapper">
+        <div class="spatial-image-box">
+          <img src="assets/spatial-materials.jpg" alt="HAVEN Villa Architecture & Materiality Details" class="spatial-img" id="spatialImage">
+          <div class="spatial-lighting-overlay" id="spatialLightingOverlay"></div>
+        </div>
+
+        <!-- Hotspot 1: Concrete Beams -->
+        <div class="spatial-hotspot" style="top: 22%; left: 23%;" data-hotspot="1">
+          <button class="hotspot-trigger" aria-label="Inspect Board-Formed Concrete">
+            <span class="hotspot-ring"></span>
+            <span class="hotspot-dot">01</span>
+          </button>
+          <div class="hotspot-card">
+            <div class="card-tag">THERMAL ENVELOPE</div>
+            <h4>Board-Formed Concrete</h4>
+            <p>Monolithic poured-in-place architectural walls providing 12-hour thermal lag, rich tactile grain, and lifetime acoustic dampening.</p>
+            <div class="hotspot-specs">
+              <span><strong>45 MPa</strong> Strength</span>
+              <span><strong>100+ Yrs</strong> Longevity</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hotspot 2: Pocket Glass Walls -->
+        <div class="spatial-hotspot" style="top: 48%; left: 47%;" data-hotspot="2">
+          <button class="hotspot-trigger" aria-label="Inspect Motorized Pocket Glass">
+            <span class="hotspot-ring"></span>
+            <span class="hotspot-dot">02</span>
+          </button>
+          <div class="hotspot-card">
+            <div class="card-tag">SEAMLESS APERTURE</div>
+            <h4>Motorized Pocket Glass</h4>
+            <p>Triple-glazed, ultra-clear low-iron glass panels motorized to slide completely into cavity walls, eliminating the barrier to the ocean.</p>
+            <div class="hotspot-specs">
+              <span><strong>STC 42</strong> Sound Isolation</span>
+              <span><strong>0.22</strong> SHGC Solar</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hotspot 3: Honed Travertine -->
+        <div class="spatial-hotspot" style="top: 74%; left: 54%;" data-hotspot="3">
+          <button class="hotspot-trigger" aria-label="Inspect Honed Travertine Flooring">
+            <span class="hotspot-ring"></span>
+            <span class="hotspot-dot">03</span>
+          </button>
+          <div class="hotspot-card">
+            <div class="card-tag">CONTINUOUS PLANE</div>
+            <h4>Honed Roman Travertine</h4>
+            <p>Flush-laid unfilled Italian travertine slabs with concealed perimeter drainage and hydronic radiant climate control.</p>
+            <div class="hotspot-specs">
+              <span><strong>Radiant</strong> Heated</span>
+              <span><strong>Level 0</strong> Flush</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hotspot 4: Infinity Basin -->
+        <div class="spatial-hotspot" style="top: 65%; left: 84%;" data-hotspot="4">
+          <button class="hotspot-trigger" aria-label="Inspect Saltwater Reflection Basin">
+            <span class="hotspot-ring"></span>
+            <span class="hotspot-dot">04</span>
+          </button>
+          <div class="hotspot-card left-aligned">
+            <div class="card-tag">BIOPHILIC COOLING</div>
+            <h4>Zero-Edge Saltwater Basin</h4>
+            <p>Geothermally temperature-regulated saltwater basin engineered to mirror coastal skies and generate natural evaporative micro-cooling.</p>
+            <div class="hotspot-specs">
+              <span><strong>Saltwater</strong> Hydro</span>
+              <span><strong>Geothermal</strong> Temp</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Architectural Performance Strip -->
+      <div class="spatial-metrics-strip">
+        <div class="metric-item">
+          <div class="metric-number">0.00</div>
+          <div class="metric-label">Net Zero Energy Target</div>
+          <div class="metric-sub">Passive thermal envelope</div>
+        </div>
+        <div class="metric-divider"></div>
+        <div class="metric-item">
+          <div class="metric-number">94.8%</div>
+          <div class="metric-label">Natural Daylighting</div>
+          <div class="metric-sub">Deep cantilever overhangs</div>
+        </div>
+        <div class="metric-divider"></div>
+        <div class="metric-item">
+          <div class="metric-number">STC 42</div>
+          <div class="metric-label">Acoustic Isolation</div>
+          <div class="metric-sub">Triple-sealed cavity glazing</div>
+        </div>
+        <div class="metric-divider"></div>
+        <div class="metric-item">
+          <div class="metric-number">100+</div>
+          <div class="metric-label">Year Resilience</div>
+          <div class="metric-sub">Pure concrete & stone</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Architectural 3D Virtual Tour & Blueprint Studio Section -->
+  <section class="tour-section" id="tour">
+    <div class="tour-section-container">
+      <!-- Section Header -->
+      <div class="tour-section-header">
+        <div class="tour-header-top">
+          <div class="tour-tag-group">
+            <span class="section-tag">INTERACTIVE SPATIAL DOSSIER</span>
+            <span class="tour-badge-live">360° Perspective & CAD Engine</span>
+          </div>
+
+          <!-- Residence Selector Switcher -->
+          <div class="tour-residence-selector" id="tourResidenceSelector">
+            <button class="residence-select-pill active" data-residence="haven-monolith">
+              <span class="pill-dot"></span>
+              <span>The Monolith Villa</span>
+            </button>
+            <button class="residence-select-pill" data-residence="haven-cliff">
+              <span class="pill-dot"></span>
+              <span>Horizon Cliffside</span>
+            </button>
+            <button class="residence-select-pill" data-residence="haven-sanctuary">
+              <span class="pill-dot"></span>
+              <span>Obsidian Pavilion</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="tour-header-main">
+          <div class="tour-title-block">
+            <h2 class="tour-section-title" id="inPageResidenceTitle">THE MONOLITH COASTAL SANCTUARY</h2>
+            <p class="tour-section-subtitle" id="inPageResidenceSubtitle">
+              Pacific Palisades, California — Cascading cantilevered concrete terraces with an infinity reflection pool and panoramic Pacific horizon views.
+            </p>
+          </div>
+
+          <!-- Mode Tabs -->
+          <div class="tour-showcase-tabs">
+            <button class="showcase-tab-btn active" data-tab="views" id="inPageTabViews">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                <circle cx="8.5" cy="8.5" r="1.5"/>
+                <polyline points="21 15 16 10 5 21"/>
+              </svg>
+              <span>Spatial Views (360°)</span>
+            </button>
+            <button class="showcase-tab-btn" data-tab="plans" id="inPageTabPlans">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 3h18v18H3zM3 9h18M9 21V9"/>
+              </svg>
+              <span>CAD Floorplans</span>
+            </button>
+            <button class="showcase-tab-btn" data-tab="specs" id="inPageTabSpecs">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="8" y1="6" x2="21" y2="6"/>
+                <line x1="8" y1="12" x2="21" y2="12"/>
+                <line x1="8" y1="18" x2="21" y2="18"/>
+                <line x1="3" y1="6" x2="3.01" y2="6"/>
+                <line x1="3" y1="12" x2="3.01" y2="12"/>
+                <line x1="3" y1="18" x2="3.01" y2="18"/>
+              </svg>
+              <span>Material Specs</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Showcase Frame -->
+      <div class="tour-showcase-frame">
+        <!-- Panel 1: Spatial Views (Virtual Tour) -->
+        <div class="tour-panel active" id="inPagePanelView">
+          <div class="tour-inpage-viewport">
+            <img src="assets/tour-living.jpg" alt="Active Room View" class="inpage-viewport-img" id="inPageMainImg">
+
+            <!-- Live HUD Overlay -->
+            <div class="inpage-hud">
+              <div class="hud-chip live-chip">
+                <span class="hud-dot"></span>
+                <span id="inPageHudTitle">01 / Ocean Living Pavilion</span>
+              </div>
+              <div class="hud-chip">
+                <span id="inPageHudCeiling">Ceiling: 6.2m Double Height</span>
+              </div>
+              <div class="hud-chip">
+                <span id="inPageHudExposure">Exposure: Direct South-West</span>
+              </div>
+            </div>
+
+            <!-- 360 Degree Virtual Tour Hint Badge -->
+            <div class="inpage-expand-hint" id="inPageExpandHint">
+              <span class="hud-360-pulsar"></span>
+              <span>Click to explore 360° Virtual Tour</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>
+              </svg>
+            </div>
+
+            <!-- Fullscreen 360 Tour Trigger Button -->
+            <button class="inpage-zoom-btn inpage-360-btn" id="inPageZoomBtn" title="Launch 360° Panoramic Spatial Tour" aria-label="Launch 360 Panoramic Tour">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="9"/>
+                <ellipse cx="12" cy="12" rx="9" ry="3.5"/>
+                <line x1="12" y1="3" x2="12" y2="21"/>
+              </svg>
+              <span>360°</span>
+            </button>
+          </div>
+
+          <!-- Thumbnails Strip -->
+          <div class="inpage-thumbs-strip" id="inPageThumbsStrip">
+            <button class="inpage-thumb-btn active" data-src="assets/tour-living.jpg" data-title="01 / Ocean Living Pavilion" data-ceiling="Ceiling: 6.2m Double Height" data-exposure="Exposure: Direct South-West">
+              <img src="assets/tour-living.jpg" alt="Ocean Living Pavilion">
+              <span class="thumb-label">01 Living Pavilion</span>
+            </button>
+            <button class="inpage-thumb-btn" data-src="assets/tour-suite.jpg" data-title="02 / Cantilever Master Suite" data-ceiling="Ceiling: 3.4m Flush Timber" data-exposure="Exposure: Sunset Pacific Coast">
+              <img src="assets/tour-suite.jpg" alt="Master Suite">
+              <span class="thumb-label">02 Master Suite</span>
+            </button>
+            <button class="inpage-thumb-btn" data-src="assets/hero-villa.jpg" data-title="03 / Cantilever Pool & Terraces" data-ceiling="Ceiling: Open Sky Canopy" data-exposure="Exposure: Full Daylight Ambient">
+              <img src="assets/hero-villa.jpg" alt="Terraces & Pool">
+              <span class="thumb-label">03 Pool & Terraces</span>
+            </button>
+            <button class="inpage-thumb-btn" data-src="assets/spatial-materials.jpg" data-title="04 / Monolithic Concrete Atrium" data-ceiling="Ceiling: 8.0m Sculptural Lightwell" data-exposure="Exposure: Zenith Diffused Light">
+              <img src="assets/spatial-materials.jpg" alt="Concrete Atrium">
+              <span class="thumb-label">04 Concrete Atrium</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Panel 2: CAD Vector Floorplans -->
+        <div class="tour-panel" id="inPagePanelPlans">
+          <div class="inpage-floorplan-box">
+            <div class="inpage-floorplan-header">
+              <div class="inpage-floor-selector">
+                <button class="inpage-floor-btn active" id="inPageBtnFloor1">
+                  <span>Level 01: Ground & Entertaining</span>
+                  <strong>4,800 sq.ft</strong>
+                </button>
+                <button class="inpage-floor-btn" id="inPageBtnFloor2">
+                  <span>Level 02: Cantilever Private Suites</span>
+                  <strong>3,600 sq.ft</strong>
+                </button>
+              </div>
+              <div class="inpage-cad-legend">
+                <span class="cad-legend-item"><span class="cad-legend-dot concrete"></span><span>400mm Concrete</span></span>
+                <span class="cad-legend-item"><span class="cad-legend-dot glass"></span><span>Triple Glaze</span></span>
+                <span class="cad-legend-item"><span class="cad-legend-dot pool"></span><span>Saltwater Basin</span></span>
+              </div>
+            </div>
+
+            <div class="inpage-blueprint-canvas">
+              <!-- Level 1 SVG -->
+              <div class="inpage-cad-graphic active" id="inPageGraphicL1">
+                <svg viewBox="0 0 860 460" class="inpage-cad-svg" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <pattern id="cadGridInPage" width="22" height="22" patternUnits="userSpaceOnUse">
+                      <path d="M 22 0 L 0 0 0 22" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+                    </pattern>
+                  </defs>
+                  <rect width="860" height="460" fill="#0f1217"/>
+                  <rect width="860" height="460" fill="url(#cadGridInPage)"/>
+                  <rect x="70" y="40" width="720" height="370" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="2" stroke-dasharray="6 4"/>
+
+                  <!-- Interactive Rooms -->
+                  <g class="inpage-cad-room" data-room="Great Room & Hearth" data-dims="14.2m × 8.8m" data-finish="Roman Travertine, Concrete" data-acoustics="STC 44 Isolated">
+                    <rect x="90" y="60" width="320" height="210" class="inpage-room-rect"/>
+                    <text x="250" y="160" class="inpage-room-text">GREAT ROOM & HEARTH</text>
+                    <text x="250" y="185" class="inpage-room-sub">14.2m × 8.8m • Roman Travertine</text>
+                  </g>
+
+                  <g class="inpage-cad-room" data-room="Boffi Minimalist Kitchen" data-dims="9.4m × 6.2m" data-finish="Quartzite, Fluted Oak" data-acoustics="Concealed Hood">
+                    <rect x="430" y="60" width="220" height="210" class="inpage-room-rect"/>
+                    <text x="540" y="160" class="inpage-room-text">BOFFI KITCHEN</text>
+                    <text x="540" y="185" class="inpage-room-sub">9.4m × 6.2m</text>
+                  </g>
+
+                  <g class="inpage-cad-room" data-room="Wine Tasting Vault" data-dims="5.2m × 4.6m" data-finish="Low-Iron Tempered Glass" data-acoustics="Vibration Isolated">
+                    <rect x="670" y="60" width="100" height="210" class="inpage-room-rect"/>
+                    <text x="720" y="160" class="inpage-room-text-vert">WINE VAULT</text>
+                  </g>
+
+                  <g class="inpage-cad-room pool-room" data-room="Saltwater Infinity Basin" data-dims="22.0m × 5.4m" data-finish="Saltwater, Roman Travertine" data-acoustics="Zero-Edge Flow">
+                    <rect x="90" y="290" width="680" height="100" class="inpage-room-rect inpage-pool-rect"/>
+                    <text x="430" y="345" class="inpage-room-text inpage-pool-text">ZERO-EDGE SALTWATER BASIN & CANTILEVER TERRACE</text>
+                  </g>
+                </svg>
+              </div>
+
+              <!-- Level 2 SVG -->
+              <div class="inpage-cad-graphic" id="inPageGraphicL2" style="display: none;">
+                <svg viewBox="0 0 860 460" class="inpage-cad-svg" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="860" height="460" fill="#0f1217"/>
+                  <rect width="860" height="460" fill="url(#cadGridInPage)"/>
+                  <rect x="120" y="50" width="620" height="350" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="2" stroke-dasharray="6 4"/>
+
+                  <g class="inpage-cad-room" data-room="Primary Cantilever Suite" data-dims="12.6m × 7.2m" data-finish="Smoked Oak, Linen" data-acoustics="STC 46 Silence">
+                    <rect x="140" y="70" width="350" height="230" class="inpage-room-rect"/>
+                    <text x="315" y="175" class="inpage-room-text">PRIMARY CANTILEVER SUITE</text>
+                    <text x="315" y="200" class="inpage-room-sub">12.6m × 7.2m • Sunset Bluff</text>
+                  </g>
+
+                  <g class="inpage-cad-room" data-room="Monolithic Spa Bath" data-dims="8.2m × 6.4m" data-finish="Freestanding Stone Tub" data-acoustics="Decoupled Plumbing">
+                    <rect x="510" y="70" width="210" height="230" class="inpage-room-rect"/>
+                    <text x="615" y="175" class="inpage-room-text">SPA BATH & RAIN ATRIUM</text>
+                    <text x="615" y="200" class="inpage-room-sub">8.2m × 6.4m</text>
+                  </g>
+
+                  <g class="inpage-cad-room" data-room="Guest Residence Wing" data-dims="16.0m × 4.8m" data-finish="Ensuite Travertine Baths" data-acoustics="Private Entry">
+                    <rect x="140" y="320" width="580" height="60" class="inpage-room-rect"/>
+                    <text x="430" y="355" class="inpage-room-text">PRIVATE GUEST RESIDENCE GALLERIES (2 SUITES)</text>
+                  </g>
+                </svg>
+              </div>
+
+              <!-- HUD Tooltip -->
+              <div class="inpage-cad-tooltip" id="inPageCadTooltip" style="opacity: 0;">
+                <div class="inpage-tooltip-title" id="inPageTooltipTitle">Room</div>
+                <div class="inpage-tooltip-row"><span>Dimensions:</span> <strong id="inPageTooltipDims">14.2m × 8.8m</strong></div>
+                <div class="inpage-tooltip-row"><span>Finishes:</span> <span id="inPageTooltipFinish">Travertine</span></div>
+                <div class="inpage-tooltip-row"><span>Acoustics:</span> <span id="inPageTooltipAcoustics">STC 44 Isolated</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel 3: Material Specs -->
+        <div class="tour-panel" id="inPagePanelSpecs">
+          <div class="inpage-specs-grid">
+            <div class="inpage-spec-card">
+              <div class="inpage-spec-icon">🏛️</div>
+              <h4>Board-Formed Concrete Monolith</h4>
+              <p>Type II/V self-consolidating low-carbon concrete cured with timber boards. Engineered for 45 MPa compressive strength with 100+ year design life and a 12-hour thermal lag.</p>
+              <div class="inpage-spec-meta">45 MPa Strength • 12-Hour Thermal Lag</div>
+            </div>
+            <div class="inpage-spec-card">
+              <div class="inpage-spec-icon">🪟</div>
+              <h4>Low-Iron Acoustic Cavity Glazing</h4>
+              <p>48mm triple-pane cavity glass with low-emissivity ceramic coating. Blocks 99.4% of UV rays while transmitting pure ocean horizon colors and achieving an STC 42 acoustic rating.</p>
+              <div class="inpage-spec-meta">STC 42 Acoustic • 0.22 U-Factor</div>
+            </div>
+            <div class="inpage-spec-card">
+              <div class="inpage-spec-icon">⚡</div>
+              <h4>Geothermal Climate Matrix</h4>
+              <p>Concealed closed-loop vertical borehole ground source heat exchange coupled with radiant hydronic floor warming and high-efficiency heat recovery ventilation.</p>
+              <div class="inpage-spec-meta">Net Zero Target • Zero Combustion</div>
+            </div>
+            <div class="inpage-spec-card">
+              <div class="inpage-spec-icon">🌊</div>
+              <h4>Biophilic Water Micro-Cooling</h4>
+              <p>Zero-edge saltwater reflection basin continuous with the living terrace plane. Generates natural evaporative cooling reducing local air temperatures in summer by 4.2°C.</p>
+              <div class="inpage-spec-meta">Natural Evaporative • Geothermal Temp</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Showcase Bottom Bar -->
+        <div class="tour-showcase-footer">
+          <div class="inpage-footer-summary">
+            <span class="inpage-summary-price" id="inPagePrice">$18,500,000</span>
+            <span class="inpage-summary-divider">•</span>
+            <span class="inpage-summary-specs" id="inPageSpecs">5 Beds • 6 Baths • 8,400 sq.ft • Pacific Palisades</span>
+          </div>
+          <div class="inpage-footer-actions">
+            <button class="inpage-download-btn" id="inPageDownloadBtn">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                <polyline points="7 10 12 15 17 10"/>
+                <line x1="12" y1="15" x2="12" y2="3"/>
+              </svg>
+              <span>Download Architectural Dossier (PDF)</span>
+            </button>
+            <a href="#book" class="inpage-book-btn" id="inPageBookBtn">
+              <span>Book In-Person Viewing</span>
+              <svg width="11" height="11" viewBox="0 0 12 12" fill="none">
+                <path d="M2.5 9.5L9.5 2.5M9.5 2.5H3.5M9.5 2.5V8.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bespoke Acquisition Journey Section -->
+  <section class="journey-section" id="journey">
+    <div class="journey-container">
+      <!-- Section Header -->
+      <div class="journey-header">
+        <div class="journey-header-top">
+          <div class="journey-tag-group">
+            <span class="section-tag">COMMISSION PROCESS</span>
+            <span class="journey-timeline-badge">4-Phase Architectural Commission</span>
+          </div>
+          <div class="journey-cta-box">
+            <a href="#book" class="journey-primary-btn" id="journeyCommissionBtn">
+              <span>Initiate Commission</span>
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                <path d="M2.5 9.5L9.5 2.5M9.5 2.5H3.5M9.5 2.5V8.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="journey-header-main">
+          <div class="journey-title-block">
+            <h2 class="journey-title">BESPOKE ACQUISITION JOURNEY</h2>
+            <p class="journey-subtitle">
+              From raw topography to a timeless brutalist sanctuary. Every HAVEN estate is realized through a rigorous four-stage collaborative commission.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Process Steps Grid -->
+      <div class="journey-grid">
+        <!-- Step 1 -->
+        <div class="journey-step-card" data-step="1">
+          <div class="step-card-header">
+            <span class="step-numeral">01</span>
+            <span class="step-duration">Weeks 1–4</span>
+          </div>
+          <div class="step-badge">SITE INTELLIGENCE</div>
+          <h3 class="step-title">Topographical & Solar Mapping</h3>
+          <p class="step-desc">
+            Geological core drilling, wind path modeling, and microclimate solar vector analysis ensure your home harnesses natural light while optimizing passive thermal cooling.
+          </p>
+          <div class="step-deliverables">
+            <div class="deliverable-label">Key Deliverables</div>
+            <ul class="deliverable-list">
+              <li>Sun-Path Vector Matrix</li>
+              <li>Geotechnical Core Analysis</li>
+              <li>Topographical 3D LiDAR Mesh</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="journey-step-card" data-step="2">
+          <div class="step-card-header">
+            <span class="step-numeral">02</span>
+            <span class="step-duration">Weeks 5–12</span>
+          </div>
+          <div class="step-badge">SCHEMATIC DESIGN</div>
+          <h3 class="step-title">Monolithic Form Sculpting</h3>
+          <p class="step-desc">
+            Iterative spatial composition balancing board-formed concrete masses with vast glass voids. We develop sightlines that frame natural landscapes like living gallery artwork.
+          </p>
+          <div class="step-deliverables">
+            <div class="deliverable-label">Key Deliverables</div>
+            <ul class="deliverable-list">
+              <li>1:50 Physical Scale Model</li>
+              <li>VR Spatial Horizon Walkthrough</li>
+              <li>Passive Solar Simulations</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="journey-step-card" data-step="3">
+          <div class="step-card-header">
+            <span class="step-numeral">03</span>
+            <span class="step-duration">Months 3–14</span>
+          </div>
+          <div class="step-badge">PRECISION BUILD</div>
+          <h3 class="step-title">Material Craft & Construction</h3>
+          <p class="step-desc">
+            Pouring self-consolidating architectural concrete, sourcing hand-selected Roman travertine blocks directly from Italian quarries, and custom-fitting pocket glass apertures.
+          </p>
+          <div class="step-deliverables">
+            <div class="deliverable-label">Key Deliverables</div>
+            <ul class="deliverable-list">
+              <li>Direct Quarry Slab Selection</li>
+              <li>Acoustic Triple-Glaze Fitting</li>
+              <li>Hydronic Subfloor Integration</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="journey-step-card" data-step="4">
+          <div class="step-card-header">
+            <span class="step-numeral">04</span>
+            <span class="step-duration">Final Month</span>
+          </div>
+          <div class="step-badge">WHITE-GLOVE HANDOVER</div>
+          <h3 class="step-title">Curated Turnkey Completion</h3>
+          <p class="step-desc">
+            Commissioned bespoke furniture placement, smart microclimate automation calibration, biophilic landscaping maturation, and confidential estate handover.
+          </p>
+          <div class="step-deliverables">
+            <div class="deliverable-label">Key Deliverables</div>
+            <ul class="deliverable-list">
+              <li>Private Key Handover Ceremony</li>
+              <li>HAVEN Smart Living OS</li>
+              <li>10-Year Structural Warranty</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ & Private Consultation Section -->
+  <section class="faq-section" id="faq">
+    <div class="faq-container">
+      <!-- Section Header -->
+      <div class="faq-header">
+        <span class="section-tag">ACQUISITION & ARCHITECTURE FAQ</span>
+        <h2 class="faq-title">FREQUENTLY ASKED QUESTIONS</h2>
+        <p class="faq-subtitle">
+          Essential insights into topographical scouting, sustainable passive thermal envelopes, and confidential private commissions.
+        </p>
+      </div>
+
+      <div class="faq-layout">
+        <!-- Accordion List (Left Column) -->
+        <div class="faq-accordion-list" id="faqAccordion">
+          <!-- Item 1 -->
+          <div class="faq-item active">
+            <button class="faq-question-btn" aria-expanded="true">
+              <span class="faq-item-num">01</span>
+              <span class="faq-question-text">How does HAVEN adapt brutalist monolithic architecture to fragile coastal terrain?</span>
+              <span class="faq-icon-toggle"></span>
+            </button>
+            <div class="faq-answer-pane">
+              <div class="faq-answer-content">
+                Every commission initiates with 3D LiDAR topographical scans and structural bedrock core sampling. Our cantilevered engineering anchors deep into geological strata, allowing residences to float above cliffs without disrupting native root systems or natural water runoff.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="faq-item">
+            <button class="faq-question-btn" aria-expanded="false">
+              <span class="faq-item-num">02</span>
+              <span class="faq-question-text">What enables HAVEN residences to achieve Net-Zero energy performance?</span>
+              <span class="faq-icon-toggle"></span>
+            </button>
+            <div class="faq-answer-pane">
+              <div class="faq-answer-content">
+                We combine dense board-formed concrete walls (12-hour thermal lag) with low-iron triple glazing and deep roof cantilevers that block high-angle summer sun while admitting low winter light. Paired with concealed geothermal heat pumps and integrated photovoltaic glass, the homes generate more clean energy than they consume.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="faq-item">
+            <button class="faq-question-btn" aria-expanded="false">
+              <span class="faq-item-num">03</span>
+              <span class="faq-question-text">Can a residence be commissioned outside of California?</span>
+              <span class="faq-icon-toggle"></span>
+            </button>
+            <div class="faq-answer-pane">
+              <div class="faq-answer-content">
+                Yes. While our signature estates are celebrated along the Pacific coast and Sedona canyons, our architectural studio commissions private sanctuaries internationally—including the Mediterranean, Swiss Alps, and Japan.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="faq-item">
+            <button class="faq-question-btn" aria-expanded="false">
+              <span class="faq-item-num">04</span>
+              <span class="faq-question-text">How confidential is the acquisition and viewing process?</span>
+              <span class="faq-icon-toggle"></span>
+            </button>
+            <div class="faq-answer-pane">
+              <div class="faq-answer-content">
+                Discretion is paramount. All private site tours and schematic reviews are conducted under bilateral non-disclosure agreements with dedicated private client advisors. Off-market properties are never publicly listed.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="faq-item">
+            <button class="faq-question-btn" aria-expanded="false">
+              <span class="faq-item-num">05</span>
+              <span class="faq-question-text">Are HAVEN residences delivered fully furnished with custom pieces?</span>
+              <span class="faq-icon-toggle"></span>
+            </button>
+            <div class="faq-answer-pane">
+              <div class="faq-answer-content">
+                Yes. Our turnkey commissions include bespoke furniture sculpted specifically for the home's spatial geometry—from monolithic travertine dining tables to custom acoustical wool wall textiles.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Consultation Card (Right Column) -->
+        <div class="faq-consultation-card">
+          <div class="consultation-tag">PRIVATE CLIENT ADVISORY</div>
+          <h3 class="consultation-title">Have a specific architectural inquiry?</h3>
+          <p class="consultation-desc">
+            Speak directly with our managing partners for confidential off-market portfolio access or bespoke commission scoping.
+          </p>
+          <div class="consultation-contacts">
+            <div class="contact-line">
+              <span class="contact-city">Los Angeles</span>
+              <span class="contact-val">+1 (310) 845-9200</span>
+            </div>
+            <div class="contact-line">
+              <span class="contact-city">Zurich</span>
+              <span class="contact-val">+41 44 218 8000</span>
+            </div>
+            <div class="contact-line">
+              <span class="contact-city">Direct Desk</span>
+              <span class="contact-val">private@haven-residences.com</span>
+            </div>
+          </div>
+          <a href="#book" class="consultation-btn" id="consultationBtn">
+            <span>Schedule Private Consultation</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+              <path d="M2.5 9.5L9.5 2.5M9.5 2.5H3.5M9.5 2.5V8.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Editorial Grand Footer -->
+  <footer class="haven-footer">
+    <div class="footer-container">
+      <div class="footer-top-row">
+        <div class="footer-brand-col">
+          <a href="#hero" class="footer-logo">HAVEN</a>
+          <p class="footer-motto">
+            We bring style, serenity and luxury through intelligent architecture.
+          </p>
+          <div class="footer-status-pill">
+            <span class="status-indicator-dot"></span>
+            <span>2026 Commission Enquiries Open</span>
+          </div>
+        </div>
+
+        <div class="footer-nav-col">
+          <div class="footer-col-title">Residences</div>
+          <ul class="footer-links-list">
+            <li><a href="#residences">The Monolith Coastal Villa</a></li>
+            <li><a href="#residences">Horizon Cliffside Estate</a></li>
+            <li><a href="#residences">The Obsidian Glass Pavilion</a></li>
+            <li><a href="#journey">Off-Market Acquisitions</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col">
+          <div class="footer-col-title">Studio</div>
+          <ul class="footer-links-list">
+            <li><a href="#tour">3D Virtual Tour & Plans</a></li>
+            <li><a href="#craft">Spatial Craft & Materiality</a></li>
+            <li><a href="#journey">4-Phase Commission</a></li>
+            <li><a href="#faq">Architecture FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col">
+          <div class="footer-col-title">Global Offices</div>
+          <ul class="footer-links-list">
+            <li><span>Pacific Palisades, CA</span></li>
+            <li><span>Talstrasse 14, Zurich</span></li>
+            <li><span>Minami-Aoyama, Tokyo</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom-row">
+        <div class="footer-copyright">
+          © 2026 HAVEN Architectural Residences. All rights reserved.
+        </div>
+        <div class="footer-legal-links">
+          <a href="#privacy">Privacy Charter</a>
+          <span class="legal-dot">•</span>
+          <a href="#terms">Terms of Commission</a>
+          <span class="legal-dot">•</span>
+          <a href="#cookie">Cookie Preferences</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Interactive Viewing Booking Modal -->
+  <div class="modal-overlay" id="bookingModal" aria-hidden="true">
+    <div class="modal-window">
+      <button class="modal-close-btn" id="closeModalBtn" aria-label="Close modal">&times;</button>
+      <div class="modal-header">
+        <span class="modal-tag">PRIVATE TOUR</span>
+        <h2>Schedule a Residence Viewing</h2>
+        <p>Experience intelligent architecture and sustainable luxury in person.</p>
+      </div>
+      <form class="modal-form" id="bookingForm" onsubmit="return false;">
+        <div class="form-group">
+          <label for="fullName">Full Name</label>
+          <input type="text" id="fullName" placeholder="e.g. Julian Vance" required>
+        </div>
+        <div class="form-group">
+          <label for="emailAddr">Email Address</label>
+          <input type="email" id="emailAddr" placeholder="julian@architecture.com" required>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="preferredDate">Preferred Date</label>
+            <input type="date" id="preferredDate" required>
+          </div>
+          <div class="form-group">
+            <label for="residenceType">Residence</label>
+            <select id="residenceType">
+              <option value="haven-monolith">The Haven Coastal Villa</option>
+              <option value="haven-cliff">Horizon Cliffside Estate</option>
+              <option value="haven-sanctuary">Sanctuary Glass Pavilion</option>
+              <option value="bespoke-commission">Bespoke Architectural Commission</option>
+            </select>
+          </div>
+        </div>
+        <button type="submit" class="submit-booking-btn" id="submitBookingBtn">
+          <span>Confirm Private Appointment</span>
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+            <path d="M2.5 9.5L9.5 2.5M9.5 2.5H3.5M9.5 2.5V8.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </form>
+      <div class="booking-success" id="bookingSuccess" style="display: none;">
+        <div class="success-icon">✓</div>
+        <h3>Viewing Requested</h3>
+        <p>Our private client advisor will reach out within 2 hours to confirm your tailored itinerary.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Interactive 3D Virtual Tour & Architectural Floorplan Modal -->
+  <div class="modal-overlay tour-modal-overlay" id="tourModal" aria-hidden="true">
+    <div class="tour-modal-window">
+      <!-- Modal Header -->
+      <div class="tour-modal-header">
+        <div class="tour-title-group">
+          <span class="tour-modal-tag">ARCHITECTURAL DOSSIER & VIRTUAL TOUR</span>
+          <h2 class="tour-residence-name" id="tourResidenceTitle">The Monolith Coastal Sanctuary</h2>
+          <span class="tour-residence-location" id="tourResidenceLocation">Pacific Palisades, California</span>
+        </div>
+
+        <!-- Mode Tabs -->
+        <div class="tour-nav-tabs">
+          <button class="tour-tab-btn active" data-tab="views" id="tabBtnViews">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+              <circle cx="8.5" cy="8.5" r="1.5"/>
+              <polyline points="21 15 16 10 5 21"/>
+            </svg>
+            <span>Spatial Views</span>
+          </button>
+          <button class="tour-tab-btn" data-tab="plans" id="tabBtnPlans">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M3 3h18v18H3zM3 9h18M9 21V9"/>
+            </svg>
+            <span>Architectural Plans</span>
+          </button>
+          <button class="tour-tab-btn" data-tab="specs" id="tabBtnSpecs">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="8" y1="6" x2="21" y2="6"/>
+              <line x1="8" y1="12" x2="21" y2="12"/>
+              <line x1="8" y1="18" x2="21" y2="18"/>
+              <line x1="3" y1="6" x2="3.01" y2="6"/>
+              <line x1="3" y1="12" x2="3.01" y2="12"/>
+              <line x1="3" y1="18" x2="3.01" y2="18"/>
+            </svg>
+            <span>Material Specs</span>
+          </button>
+        </div>
+
+        <button class="modal-close-btn" id="closeTourModalBtn" aria-label="Close dossier modal">&times;</button>
+      </div>
+
+      <!-- Tab Content 1: Spatial Views (Virtual Tour Gallery) -->
+      <div class="tour-tab-content active" id="tabContentViews">
+        <div class="tour-viewport-container">
+          <div class="tour-main-viewport">
+            <img src="assets/tour-living.jpg" alt="Active Room View" class="tour-viewport-img" id="tourMainImg">
+            
+            <!-- Spatial HUD Chips -->
+            <div class="tour-viewport-hud">
+              <div class="hud-chip live-chip">
+                <span class="hud-dot"></span>
+                <span id="hudSpaceTitle">01 / Ocean Living Pavilion</span>
+              </div>
+              <div class="hud-chip">
+                <span id="hudCeiling">Ceiling: 6.2m Double Height</span>
+              </div>
+              <div class="hud-chip">
+                <span id="hudExposure">Exposure: Direct South-West</span>
+              </div>
+            </div>
+
+            <!-- Fullscreen / Zoom Toggle -->
+            <button class="tour-zoom-btn" id="tourZoomBtn" title="Toggle zoom perspective">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"/>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                <line x1="11" y1="8" x2="11" y2="14"/>
+                <line x1="8" y1="11" x2="14" y2="11"/>
+              </svg>
+            </button>
+          </div>
+
+          <!-- Thumbnails Strip -->
+          <div class="tour-thumbs-strip" id="tourThumbsStrip">
+            <button class="tour-thumb-btn active" data-src="assets/tour-living.jpg" data-title="01 / Ocean Living Pavilion" data-ceiling="Ceiling: 6.2m Double Height" data-exposure="Exposure: Direct South-West">
+              <img src="assets/tour-living.jpg" alt="Ocean Living Pavilion">
+              <span class="thumb-caption">Living Pavilion</span>
+            </button>
+            <button class="tour-thumb-btn" data-src="assets/tour-suite.jpg" data-title="02 / Cantilever Master Suite" data-ceiling="Ceiling: 3.4m Flush Timber" data-exposure="Exposure: Sunset Pacific Coast">
+              <img src="assets/tour-suite.jpg" alt="Master Suite">
+              <span class="thumb-caption">Master Suite</span>
+            </button>
+            <button class="tour-thumb-btn" data-src="assets/hero-villa.jpg" data-title="03 / Cantilever Pool & Terraces" data-ceiling="Ceiling: Open Sky Canopy" data-exposure="Exposure: Full Daylight Ambient">
+              <img src="assets/hero-villa.jpg" alt="Terraces & Pool">
+              <span class="thumb-caption">Terraces & Pool</span>
+            </button>
+            <button class="tour-thumb-btn" data-src="assets/spatial-materials.jpg" data-title="04 / Monolithic Concrete Atrium" data-ceiling="Ceiling: 8.0m Sculptural Lightwell" data-exposure="Exposure: Zenith Diffused Light">
+              <img src="assets/spatial-materials.jpg" alt="Concrete Atrium">
+              <span class="thumb-caption">Concrete Atrium</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab Content 2: Architectural CAD Blueprint Floorplan -->
+      <div class="tour-tab-content" id="tabContentPlans">
+        <div class="floorplan-layout">
+          <!-- Floor Selector Controls -->
+          <div class="floorplan-controls">
+            <div class="floorplan-selector">
+              <button class="floor-pill-btn active" data-level="1" id="btnFloor1">
+                <span>Level 01: Ground & Entertaining</span>
+                <strong class="floor-sqft">4,800 sq.ft</strong>
+              </button>
+              <button class="floor-pill-btn" data-level="2" id="btnFloor2">
+                <span>Level 02: Cantilever Private Suites</span>
+                <strong class="floor-sqft">3,600 sq.ft</strong>
+              </button>
+            </div>
+            <div class="floorplan-legend">
+              <span class="legend-item"><span class="legend-dot concrete"></span> 400mm Concrete</span>
+              <span class="legend-item"><span class="legend-dot glass"></span> Triple Glazing</span>
+              <span class="legend-item"><span class="legend-dot water"></span> Saltwater Basin</span>
+            </div>
+          </div>
+
+          <!-- Interactive Blueprint Container -->
+          <div class="blueprint-canvas-box" id="blueprintCanvasBox">
+            <!-- Level 1 Floorplan SVG -->
+            <div class="floorplan-graphic level-active" id="graphicLevel1">
+              <svg viewBox="0 0 860 480" class="cad-svg" id="cadSvgL1" xmlns="http://www.w3.org/2000/svg">
+                <!-- Background Grid -->
+                <defs>
+                  <pattern id="cadGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+                    <path d="M 24 0 L 0 0 0 24" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+                  </pattern>
+                </defs>
+                <rect width="860" height="480" fill="#0f1115"/>
+                <rect width="860" height="480" fill="url(#cadGrid)"/>
+
+                <!-- Structural Grid Vectors -->
+                <line x1="60" y1="20" x2="60" y2="460" stroke="rgba(255,255,255,0.07)" stroke-width="1" stroke-dasharray="2 4"/>
+                <line x1="420" y1="20" x2="420" y2="460" stroke="rgba(255,255,255,0.07)" stroke-width="1" stroke-dasharray="2 4"/>
+                <line x1="780" y1="20" x2="780" y2="460" stroke="rgba(255,255,255,0.07)" stroke-width="1" stroke-dasharray="2 4"/>
+
+                <!-- Structural Exterior Perimeter -->
+                <rect x="70" y="50" width="720" height="370" fill="none" stroke="rgba(255,255,255,0.22)" stroke-width="2" stroke-dasharray="6 4"/>
+
+                <!-- Interactive Rooms (Level 1) -->
+                <!-- Room 1: Great Room & Hearth -->
+                <g class="cad-room-zone" data-room="Great Room & Hearth" data-dims="14.2m × 8.8m" data-finish="Roman Travertine, Board-Formed Concrete" data-acoustics="STC 44 Isolated">
+                  <rect x="90" y="70" width="320" height="210" class="room-rect"/>
+                  <text x="250" y="170" class="room-label">GREAT ROOM & HEARTH</text>
+                  <text x="250" y="195" class="room-sublabel">14.2m × 8.8m • Travertine</text>
+                </g>
+
+                <!-- Room 2: Minimalist Kitchen & Scullery -->
+                <g class="cad-room-zone" data-room="Boffi Kitchen & Scullery" data-dims="9.4m × 6.2m" data-finish="Nero Marquina Quartzite, Fluted Oak" data-acoustics="Concealed Venting">
+                  <rect x="430" y="70" width="220" height="210" class="room-rect"/>
+                  <text x="540" y="170" class="room-label">MINIMALIST KITCHEN</text>
+                  <text x="540" y="195" class="room-sublabel">9.4m × 6.2m • Boffi</text>
+                </g>
+
+                <!-- Room 3: Wine Cellar & Tasting Room -->
+                <g class="cad-room-zone" data-room="Sub-Terranean Wine Vault" data-dims="5.2m × 4.6m" data-finish="Climate-Controlled Low-Iron Glass" data-acoustics="Vibration Dampened">
+                  <rect x="670" y="70" width="100" height="210" class="room-rect"/>
+                  <text x="720" y="170" class="room-label-vert">WINE VAULT</text>
+                  <text x="720" y="195" class="room-sublabel-vert">5.2m</text>
+                </g>
+
+                <!-- Room 4: Cantilever Pool Terrace -->
+                <g class="cad-room-zone pool-zone" data-room="Saltwater Infinity Basin & Sundeck" data-dims="22.0m × 5.4m" data-finish="Heated Roman Travertine & Saltwater" data-acoustics="Zero-Edge Overflow">
+                  <rect x="90" y="300" width="680" height="100" class="room-rect pool-rect"/>
+                  <text x="430" y="355" class="room-label pool-text">ZERO-EDGE SALTWATER BASIN & CANTILEVER TERRACE</text>
+                </g>
+              </svg>
+            </div>
+
+            <!-- Level 2 Floorplan SVG -->
+            <div class="floorplan-graphic" id="graphicLevel2" style="display: none;">
+              <svg viewBox="0 0 860 480" class="cad-svg" id="cadSvgL2" xmlns="http://www.w3.org/2000/svg">
+                <rect width="860" height="480" fill="#0f1115"/>
+                <rect width="860" height="480" fill="url(#cadGrid)"/>
+                <rect x="120" y="60" width="620" height="350" fill="none" stroke="rgba(255,255,255,0.22)" stroke-width="2" stroke-dasharray="6 4"/>
+
+                <!-- Primary Cantilever Suite -->
+                <g class="cad-room-zone" data-room="Primary Cantilever Suite" data-dims="12.6m × 7.2m" data-finish="Smoked European Oak, Linen Walls" data-acoustics="STC 46 Whispering Silence">
+                  <rect x="140" y="80" width="350" height="230" class="room-rect"/>
+                  <text x="315" y="185" class="room-label">PRIMARY CANTILEVER SUITE</text>
+                  <text x="315" y="210" class="room-sublabel">12.6m × 7.2m • Sunset Terrace</text>
+                </g>
+
+                <!-- Spa Bath & Dressing Gallery -->
+                <g class="cad-room-zone" data-room="Monolithic Spa Bath" data-dims="8.2m × 6.4m" data-finish="Freestanding Stone Tub & Rain Atrium" data-acoustics="Acoustic Decoupled">
+                  <rect x="510" y="80" width="210" height="230" class="room-rect"/>
+                  <text x="615" y="185" class="room-label">SPA BATH & SUITE</text>
+                  <text x="615" y="210" class="room-sublabel">8.2m × 6.4m • Stone</text>
+                </g>
+
+                <!-- Guest Suites Wing -->
+                <g class="cad-room-zone" data-room="Guest Suites East Wing" data-dims="16.0m × 4.8m" data-finish="Travertine Ensuite Baths, Balcony" data-acoustics="Private Entry">
+                  <rect x="140" y="330" width="580" height="60" class="room-rect"/>
+                  <text x="430" y="365" class="room-label">PRIVATE GUEST RESIDENCE GALLERIES (2 SUITES)</text>
+                </g>
+              </svg>
+            </div>
+
+            <!-- Dynamic Blueprint Room Tooltip -->
+            <div class="cad-tooltip" id="cadTooltip" style="opacity: 0;">
+              <div class="tooltip-title" id="cadTooltipTitle">Great Room & Hearth</div>
+              <div class="tooltip-row"><span>Dimensions:</span> <strong id="cadTooltipDims">14.2m × 8.8m</strong></div>
+              <div class="tooltip-row"><span>Finishes:</span> <span id="cadTooltipFinish">Roman Travertine</span></div>
+              <div class="tooltip-row"><span>Acoustics:</span> <span id="cadTooltipAcoustics">STC 44 Isolated</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab Content 3: Material & Engineering Specs -->
+      <div class="tour-tab-content" id="tabContentSpecs">
+        <div class="specs-dossier-grid">
+          <div class="spec-card">
+            <div class="spec-card-icon">🏛️</div>
+            <h4>Structural Monolith</h4>
+            <p>Type II/V self-consolidating low-carbon concrete cured with timber boards to expose organic wood grain patterns. Engineered for 45 MPa compressive strength with 100+ year design life.</p>
+            <div class="spec-meta">45 MPa Strength • Seismic Dampened</div>
+          </div>
+          <div class="spec-card">
+            <div class="spec-card-icon">🪟</div>
+            <h4>Low-Iron Cavity Glazing</h4>
+            <p>Floor-to-ceiling 48mm triple-pane acoustic glazing with low-emissivity coating. Blocks 99.4% of UV while transmitting pure undistorted ocean views with an STC 42 acoustic rating.</p>
+            <div class="spec-meta">STC 42 Sound Isolation • 0.22 U-Factor</div>
+          </div>
+          <div class="spec-card">
+            <div class="spec-card-icon">⚡</div>
+            <h4>Geothermal Climate Matrix</h4>
+            <p>Concealed closed-loop vertical borehole ground source heat exchange coupled to hydronic radiant flooring. Supplies whisper-quiet cooling and heating with zero combustion.</p>
+            <div class="spec-meta">Net Zero Target • 100% Hydronic</div>
+          </div>
+          <div class="spec-card">
+            <div class="spec-card-icon">🌊</div>
+            <h4>Biophilic Water Micro-Cooling</h4>
+            <p>Zero-edge saltwater reflection basin continuous with the living terrace plane. Generates natural evaporative cooling reducing thermal loads in summer by 4.2°C.</p>
+            <div class="spec-meta">Natural Evaporative • Salt Hydro</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Footer Action Bar -->
+      <div class="tour-modal-footer">
+        <div class="tour-footer-summary">
+          <span class="tour-summary-price" id="tourFooterPrice">$18,500,000</span>
+          <span class="tour-summary-divider">•</span>
+          <span class="tour-summary-specs" id="tourFooterSpecs">5 Beds • 6 Baths • 8,400 sq.ft</span>
+        </div>
+        <div class="tour-footer-actions">
+          <button class="tour-download-dossier-btn" id="tourDownloadBtn">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+              <polyline points="7 10 12 15 17 10"/>
+              <line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+            <span>Download Dossier (PDF)</span>
+          </button>
+          <button class="tour-book-direct-btn" id="tourBookDirectBtn">
+            <span>Book In-Person Viewing</span>
+            <svg width="11" height="11" viewBox="0 0 12 12" fill="none">
+              <path d="M2.5 9.5L9.5 2.5M9.5 2.5H3.5M9.5 2.5V8.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- High-Resolution Image Lightbox & 360° Spatial Tour Modal -->
+  <div class="lightbox-overlay" id="imageLightboxModal" aria-hidden="true">
+    <button class="lightbox-close-btn" id="closeLightboxBtn" aria-label="Close 360 viewer">&times;</button>
+    <button class="lightbox-nav-btn prev-btn" id="lightboxPrevBtn" aria-label="Previous room">&#10094;</button>
+    
+    <div class="lightbox-content">
+      <div class="lightbox-360-container" id="lightbox360Container">
+        <!-- 360° Interactive Canvas -->
+        <canvas id="spatial360Canvas" class="spatial-360-canvas"></canvas>
+        <img src="assets/tour-living.jpg" alt="High Resolution Spatial View" id="lightboxImg" class="lightbox-img fallback-2d" style="display: none;">
+
+        <!-- 360° HUD & View Controls -->
+        <div class="hud-360-overlay" id="hud360Overlay">
+          <!-- Top Bar -->
+          <div class="hud-360-top">
+            <div class="hud-360-badge">
+              <span class="hud-360-pulsar"></span>
+              <span>360° SPATIAL VIRTUAL TOUR</span>
+            </div>
+            <div class="hud-360-compass">
+              <span class="compass-tag">VIEW ANGLE</span>
+              <strong id="hud360Heading">0° NORTH</strong>
+            </div>
+            <div class="hud-360-actions">
+              <button class="hud-btn" id="btn360AutoRotate" title="Toggle 360° Auto-Orbit" type="button">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.3"/>
+                </svg>
+                <span id="labelAutoRotate">Auto-Orbit</span>
+              </button>
+              <button class="hud-btn" id="btn360Reset" title="Reset View Direction" type="button">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="3"/>
+                  <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+                </svg>
+                <span>Center</span>
+              </button>
+              <button class="hud-btn" id="btn360Toggle2D" title="Toggle 360° / 2D Photo View" type="button">
+                <span id="btn360ToggleLabel">2D Photo</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Interactive Drag & Scroll Hint -->
+          <div class="hud-360-hint" id="hud360Hint">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="15 18 9 12 15 6"/>
+              <polyline points="9 18 15 12 9 6"/>
+            </svg>
+            <span>Click & drag in any direction to look around 360° • Scroll to zoom</span>
+          </div>
+
+          <!-- On-screen Zoom Controls -->
+          <div class="hud-360-zoom-controls">
+            <button class="zoom-ctrl-btn" id="btn360ZoomIn" aria-label="Zoom In" type="button">+</button>
+            <button class="zoom-ctrl-btn" id="btn360ZoomOut" aria-label="Zoom Out" type="button">&minus;</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Caption & Room Switcher Bar -->
+      <div class="lightbox-caption-bar">
+        <div class="lightbox-caption-info">
+          <span class="lightbox-caption-title" id="lightboxCaptionTitle">01 / Ocean Living Pavilion</span>
+          <span class="lightbox-caption-sub" id="lightboxCaptionSub">Double-height board-formed concrete & low-iron glazing</span>
+        </div>
+        <div class="lightbox-room-strip" id="lightboxRoomStrip">
+          <!-- Populated dynamically with all rooms of current residence -->
+        </div>
+      </div>
+    </div>
+
+    <button class="lightbox-nav-btn next-btn" id="lightboxNextBtn" aria-label="Next room">&#10095;</button>
+  </div>
+
+  <!-- HAVEN Private Architectural Concierge Chatbot -->
+  <div class="haven-chatbot-wrapper" id="havenChatbotWrapper">
+    <!-- Floating Trigger Bubble -->
+    <button class="chatbot-trigger-btn" id="havenChatTrigger" aria-label="Open HAVEN Concierge Chat" type="button">
+      <div class="trigger-teaser-pill" id="chatTeaserPill">
+        <span class="teaser-dot"></span>
+        <span class="teaser-text">Private Concierge</span>
+      </div>
+      <div class="trigger-icon-box">
+        <svg class="chat-icon-svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+        </svg>
+        <svg class="close-icon-svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+        <span class="unread-badge" id="chatUnreadBadge">1</span>
+      </div>
+    </button>
+
+    <!-- Concierge Chat Window -->
+    <div class="chatbot-window" id="havenChatWindow" aria-hidden="true">
+      <!-- Window Header -->
+      <div class="chat-header">
+        <div class="chat-header-identity">
+          <div class="chat-avatar">
+            <span class="avatar-initials">H</span>
+            <span class="chat-live-dot" title="Advisor Online"></span>
+          </div>
+          <div class="chat-title-group">
+            <div class="chat-name">AURA • HAVEN Concierge</div>
+            <div class="chat-status">Architectural Advisory • Online</div>
+          </div>
+        </div>
+        <div class="chat-header-actions">
+          <button class="chat-header-btn" id="chatClearBtn" title="Restart conversation" type="button" aria-label="Clear chat">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"></path>
+              <path d="M21 3v5h-5"></path>
+              <path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"></path>
+              <path d="M8 16H3v5"></path>
+            </svg>
+          </button>
+          <button class="chat-header-btn" id="chatMinimizeBtn" title="Close concierge" type="button" aria-label="Close chat">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Messages Body -->
+      <div class="chat-body" id="chatMessagesBody">
+        <div class="chat-messages" id="chatMessagesContainer">
+          <!-- Populated dynamically by chat engine -->
+        </div>
+        
+        <!-- Typing Indicator -->
+        <div class="chat-typing-indicator" id="chatTypingIndicator" style="display: none;">
+          <div class="typing-avatar">H</div>
+          <div class="typing-bubble">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Prompt Suggestions Strip -->
+      <div class="chat-quick-strip" id="chatQuickPrompts">
+        <button class="quick-prompt-chip" data-prompt="Show me available residences">🏛️ Available Residences</button>
+        <button class="quick-prompt-chip" data-prompt="How do I explore 360° virtual tours?">🔄 360° Virtual Tour</button>
+        <button class="quick-prompt-chip" data-prompt="What is the price of The Monolith Villa?">💰 Pricing & Specs</button>
+        <button class="quick-prompt-chip" data-prompt="I want to book a private viewing">📅 Book a Viewing</button>
+        <button class="quick-prompt-chip" data-prompt="Tell me about passive thermal & sustainable tech">🌿 Sustainability</button>
+      </div>
+
+      <!-- Chat Input Area -->
+      <form class="chat-input-form" id="chatInputForm" onsubmit="return false;">
+        <input type="text" id="chatInputText" class="chat-input-field" placeholder="Ask about residences, 360° tours, specs..." autocomplete="off" maxlength="350">
+        <button type="submit" id="chatSendBtn" class="chat-send-btn" aria-label="Send message">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
